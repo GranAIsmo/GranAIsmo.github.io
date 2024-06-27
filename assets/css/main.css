@@ -2055,9 +2055,9 @@ input, select, textarea {
 	.dark input[type="reset"],
 	.dark button,
 	.dark .button {
-		background: rgba(255, 255, 255, 0.15);
-		box-shadow: inset 0 0 0 1px #fff;
-		color: #fff;
+		background: rgba(255, 255, 255, 0.5);
+		box-shadow: inset 0 0 0 1px rgb(190, 60, 60);
+		color: rgb(190, 60, 60);
 	}
 
 		.dark input[type="button"]:hover,
@@ -2198,7 +2198,7 @@ input, select, textarea {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.3); /* Adjust filter image; color and opacity level here */
+		background-color: rgba(255, 255, 255, 0.75); /* Adjust filter image; color and opacity level here */
 		pointer-events: none;
 		z-index: 0;
 	}
@@ -2211,7 +2211,7 @@ input, select, textarea {
 		#header header h1 {
 			font-size: 7em;
 			margin: 10% 0;
-			color: rgb(255, 237, 237); /* Adjust header color here */
+			color: rgb(190, 60, 60); /* Adjust header color here */
 		}
 
 		#header header p {
@@ -2264,7 +2264,7 @@ input, select, textarea {
 			}
 
 			.main > .content.dark {
-				background: #433;
+				background: rgba(190, 60, 60, 0.4);
 			}
 
 			.main > .content.style1 {
