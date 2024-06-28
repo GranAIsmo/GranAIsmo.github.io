@@ -2285,6 +2285,39 @@ input, select, textarea {
 				background: #fff;
 			}
 
+	
+	.main1 {
+		position: relative;
+		z-index: 2;
+	}
+
+	.main1 > .content {
+		padding: 6em 0 6em 0;
+	}
+			
+	.main1 > .background {
+		background-image: url('../../images/map.png');
+		background-size: cover;
+		background-position: center; 
+		background-repeat: no-repeat;
+	} 
+
+	.main1 > .background::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+		z-index: 1;
+	}
+	
+	.main1 > .background > * {
+		position: relative;
+		z-index: 3;
+	}
+
 /* Footer */
 
 	#footer {
