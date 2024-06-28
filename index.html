@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" /> -->
 	</head>
 	<body class="is-preload">
 
@@ -17,9 +18,9 @@
 			<section id="header" class="dark">
 				<div class="content">
 					<header>
-						<div style="display: flex; margin: 0 15%">
-							<img src="images/Logo GranAIsmo.png" alt="" style="width: 40%"/>
-							<h1 style="width: 60%;">GranAIsmo</h1>
+						<div style="display: flex; margin: 0 auto; justify-content: center;">
+							<img src="images/Logo GranAIsmo.png" alt="" style="object-fit: contain;"/>
+							<h1>GranAIsmo</h1>
 						</div>
 					<!--
 						<p>Subtitle</p>
@@ -45,21 +46,99 @@
 						</div>
 					</div>
 				</header>
-				<div id="first_a" class="content dark featured" style="background-image: radial-gradient(rgba(200, 80, 80, 0.7), rgba(240, 200, 200, 1))">
+				<div id="first_a" class="content dark featured" style="display: flex; background-image: radial-gradient(rgba(200, 80, 80, 0.7), rgba(240, 200, 200, 1))">
+					<!-- Block Legal -->
+					<div style="display: flex; flex-direction: column; width: 50%">
+						<div style="height: 20em; width: 20em; margin: 0 auto">
+							<div style="border-radius: 100%; height: 50%; width: 50%; margin: 0 auto; overflow: hidden">
+								<a href="legal.html">
+									<i class="fa-solid fa-scale-balanced" style="display: flex;
+										width: 100%;
+										height: 100%;
+										font-size: 6rem;
+										border-radius: 100%;
+										box-shadow: inset 0 0 0 1px #ffffff;
+										color: rgb(190, 60, 60);
+										align-items: center;
+										justify-content: center;">
+									</i>
+								</a>
+							</div>
+							<div style="margin: 0 auto;
+								width: 1px;
+								height: 35%;
+								background: #ffffff;">
+							</div>
+							<div style="width: 5%;
+								height: 5%;
+								border-radius:100%;
+								background: #ffffff;
+								margin: 0 auto">
+
+							</div>
+						</div>
+						<div style="width: 10em; margin: 0 auto;">
+							<header>
+								<h3 style="display: flex; margin: 0 auto; justify-content: center;"><a href="legal.html">Legal</a></h3>
+							</header>
+							<p>Caption for legal site</p>
+						</div>
+					</div>
+
+					<!-- Block Technical -->
+					<div style="display: flex; flex-direction: column; width: 50%">
+						<div style="height: 20em; width: 20em; margin: 0 auto;">
+							<div style="border: 1px solid rgba(255, 0, 0, 0); border-radius: 100%; height: 50%; width: 50%; margin: 0 auto; overflow: hidden">
+								<a href="technical.html">
+									<i class="fa-solid fa-laptop-code" style="display: flex;
+										width: 100%;
+										height: 100%;
+										font-size: 6rem;
+										border-radius: 100%;
+										box-shadow: inset 0 0 0 1px #ffffff;
+										color: rgb(190, 60, 60);
+										align-items: center;
+										justify-content: center;">
+									</i>
+								</a>
+							</div>
+							<div style="margin: 0 auto;
+								width: 1px;
+								height: 35%;
+								background: #ffffff;">
+							</div>
+							<div style="width: 5%;
+								height: 5%;
+								border-radius:100%;
+								background: #ffffff;
+								margin: 0 auto">
+
+							</div>
+						</div>
+						<div style="width: 10em; margin: 0 auto">
+							<header>
+								<h3 style="display: flex; margin: 0 auto; justify-content: center;"><a href="technical.html">Technical</a></h3>
+							</header>
+							<p>Caption for Technical site</p>
+						</div>
+					</div>
+					
+					<!--
 					<div class="container">
 						<div class="row">
 							<div class="col-4 col-12-narrow" style="width:50%">
 								<section>
-									<span class="feature-icon"><a href="legal.html" style="border-bottom:none;"><span class="icon fa-clock"></span></a></span>
 									<header>
-										<h3><a href="legal.html">Legal</a></h3>
+										<h3 style="font-size: 3em; margin-bottom: 10%"><a href="legal.html"><span class="fa-solid fa-gavel"></span> Legal</a></h3>
 									</header>
 									<p>Caption for Legal site</p>
 								</section>
 							</div>
 							<div class="col-4 col-12-narrow" style="width:50%">
 								<section>
-									<span class="feature-icon"><a href="technical.html" style="border-bottom:none;"><span class="icon solid fa-bolt"></span></a></span>
+									<span class="feature-icon">
+										<a href="technical.html" style="border-bottom:none;"><span class="icon solid fa-bolt"></span></a>
+									</span>
 									<header>
 										<h3><a href="technical.html">Technical</a></h3>
 									</header>
@@ -68,45 +147,11 @@
 							</div>
 						</div>
 					</div>
+					-->
+
 				</div>
 			</section>
 
-		<!-- Second -->
-		<!--
-			<section id="second" class="main">
-				<header>
-					<div class="container">
-						<h2>Second title if needed</h2>
-						<p>Second subtitle</p>
-					</div>
-				</header>
-				<div class="content dark style2">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-narrow">
-								<section>
-									<h3>Third title if needed</h3>
-									<p>Some text in here</p>
-									<footer>
-										<a href="#third" class="button scrolly">Accumsan nisi tempor</a>
-									</footer>
-								</section>
-							</div>
-							<div class="col-8 col-12-narrow">
-								<div class="row">
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		-->
 
 
 		<!-- Basic Elements -->
@@ -296,6 +341,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://kit.fontawesome.com/2784eee638.js" crossorigin="anonymous"></script>
 	</body>
 </html>

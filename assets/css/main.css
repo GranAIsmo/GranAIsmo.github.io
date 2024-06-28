@@ -2209,6 +2209,7 @@ input, select, textarea {
 	}
 
 		#header header h1 {
+			font-weight: 300;
 			font-size: 7em;
 			margin: 10% 0;
 			color: rgb(190, 60, 60); /* Adjust header color here */
