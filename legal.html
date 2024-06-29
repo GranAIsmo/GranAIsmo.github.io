@@ -13,82 +13,168 @@
 		<!-- <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" /> -->
 	</head>
     <body>
-        <div style="display: flex">
-            <!-- Block 1 -->
-            <div style="display: flex; flex-direction: column; width: 50%">
-                <div style="height: 10em; width: 10em; border: 1px solid blue">
-                    <div style="border: 1px solid rgba(255, 0, 0, 0); border-radius: 100%; height: 50%; width: 50%; margin: 0 auto;">
-                        <i class="fa-solid fa-gavel" style="display: flex;
-                            width: 100%;
-                            height: 100%;
-                            font-size: 4rem;
-                            border-radius: 100%;
-                            box-shadow: inset 0 0 0 1px #666;
-                            color: #666;
-                            align-items: center;
-                            justify-content: center;">
-                        </i>
-                    </div>
-                    <div style="margin: 0 auto;
-                        width: 1px;
-                        height: 45%;
-                        background: #666;">
-                    </div>
-                    <div style="width: 5%;
-                        height: 5%;
-                        border-radius:100%;
-                        background: #666;
-                        margin: 0 auto">
 
-                    </div>
+    <!-- Basic Elements -->
+        <section class="main">
+            <header>
+                <div class="container">
+                    <h2>A Whole Lotta Elements</h2>
+                    <p>General purpose elements for every general purpose. Or something like that.</p>
                 </div>
-                <div style="border: 1px solid orange; width: 10em;">
-                    <header>
-                        <h3 style="display: flex; margin: 0 auto; justify-content: center;"><a href="technical.html">Technical</a></h3>
-                    </header>
-                    <p>Caption for Technical site</p>
+            </header>
+            <div class="content style1 dark">
+                <div class="container">
+                    <section>
+                        <header>
+                            <h3>Paragraph</h3>
+                            <p>This is a byline</p>
+                        </header>
+                        <p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
+                        habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
+                        leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
+                        amet risus elit.</p>
+                    </section>
+                    <section>
+                        <header>
+                            <h3>Blockquote</h3>
+                        </header>
+                        <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
+                        tempus euismod. Vestibulum ante ipsum primis in faucibus. Cras sit amet urna eros, id egestas
+                        tempus ante ipsum primis in faucibus orci luctus et ultrices.</blockquote>
+                    </section>
+                    <section>
+                        <header>
+                            <h3>Divider</h3>
+                        </header>
+                        <p>Donec consectetur <a href="#">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
+                        ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
+                        facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+                        tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                        posuere cubilia.</p>
+                        <hr />
+                        <p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
+                        ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
+                        facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+                        tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                        posuere cubilia.</p>
+                    </section>
+                    <section>
+                        <header>
+                            <h3>Unordered List</h3>
+                        </header>
+                        <ul class="default">
+                            <li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+                            <li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+                            <li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+                            <li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <header>
+                            <h3>Ordered List</h3>
+                        </header>
+                        <ol class="default">
+                            <li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+                            <li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+                            <li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+                            <li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+                        </ol>
+                    </section>
+                    <section>
+                        <header>
+                            <h3>Table</h3>
+                        </header>
+                        <div class="table-wrapper">
+                            <table class="default">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Description</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>00001</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+                                        <td>29.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>00002</td>
+                                        <td>Sit amet nullam</td>
+                                        <td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+                                        <td>19.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>00003</td>
+                                        <td>Feugiat felis viverra</td>
+                                        <td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+                                        <td>29.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>00004</td>
+                                        <td>Sagittis enim felis</td>
+                                        <td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+                                        <td>19.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>00005</td>
+                                        <td>Nullam sed vestibulum</td>
+                                        <td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+                                        <td>19.99</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3"></td>
+                                        <td>100.00</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </section>
+                    <section>
+                        <header>
+                            <h3>Form</h3>
+                        </header>
+                        <form method="post" action="#">
+                            <div class="row gtr-50">
+                                <div class="col-6 col-12-narrow">
+                                    <input type="text" name="name" id="name" value="" placeholder="John Doe" />
+                                </div>
+                                <div class="col-6 col-12-narrow">
+                                    <input type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
+                                </div>
+                                <div class="col-12">
+                                    <div class="select" tabindex="-1">
+                                        <select name="department" id="department">
+                                            <option value="">Choose a department</option>
+                                            <option value="1">Manufacturing</option>
+                                            <option value="2">Administration</option>
+                                            <option value="3">Support</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <ul class="actions">
+                                        <li><input type="submit" class="button" value="Send Message" /></li>
+                                        <li><input type="reset" class="button alt" value="Clear Form" /></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
                 </div>
             </div>
-
-            <!-- Block 2 -->
-            <div style="display: flex; flex-direction: column; width: 50%">
-                <div style="height: 10em; width: 10em; border: 1px solid blue">
-                    <div style="border: 1px solid rgba(255, 0, 0, 0); border-radius: 100%; height: 50%; width: 50%; margin: 0 auto;">
-                        <i class="fa-solid fa-gavel" style="display: flex;
-                            width: 100%;
-                            height: 100%;
-                            font-size: 4rem;
-                            border-radius: 100%;
-                            box-shadow: inset 0 0 0 1px #666;
-                            color: #666;
-                            align-items: center;
-                            justify-content: center;">
-                        </i>
-                    </div>
-                    <div style="margin: 0 auto;
-                        width: 1px;
-                        height: 45%;
-                        background: #666;">
-                    </div>
-                    <div style="width: 5%;
-                        height: 5%;
-                        border-radius:100%;
-                        background: #666;
-                        margin: 0 auto">
-
-                    </div>
-                </div>
-                <div style="border: 1px solid orange; width: 10em;">
-                    <header>
-                        <h3 style="display: flex; margin: 0 auto; justify-content: center;"><a href="technical.html">Technical</a></h3>
-                    </header>
-                    <p>Caption for Technical site</p>
-                </div>
-            </div>
-            
-        </div>
-    </body>
-
+        </section>
 
 
 		<!-- Scripts -->
