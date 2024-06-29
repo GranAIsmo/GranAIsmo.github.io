@@ -2022,6 +2022,8 @@ input, select, textarea {
 		color: #fff;
 		text-align: center;
 		text-decoration: none;
+		max-width: clamp(10vw, 15em, 35vw);
+		font-size: clamp(1vw, 2em, 4vw);
 	}
 
 		input[type="button"]:hover,
@@ -2058,6 +2060,8 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.5);
 		box-shadow: inset 0 0 0 1px rgb(190, 60, 60);
 		color: rgb(190, 60, 60);
+		max-width: clamp(10vw, 15em, 35vw);
+		font-size: clamp(1vw, 2em, 4vw);
 	}
 
 		.dark input[type="button"]:hover,
