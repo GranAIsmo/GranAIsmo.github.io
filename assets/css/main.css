@@ -2383,6 +2383,26 @@ input, select, textarea {
 			color: #666;
 		}
 
+			#footer .subcontent a {
+				color: rgb(255, 255, 255);
+				border: none;
+				height: clamp(0.5em, 1.5em, 5vw);
+			}
+
+			#footer .subcontent a:link {
+
+			}
+			  
+			#footer .subcontent a:visited {
+			}
+			
+			#footer .subcontent a:hover {
+				color: rgb(190, 60, 60);
+			}
+			
+			#footer .subcontent a:active {
+			}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
