@@ -57,13 +57,13 @@
 					<div class="content featured background" style="display: flex;">
 						<!-- Block Legal -->
 						<div style="display: flex; flex-direction: column; width: 50%">
-							<div style="height: 20em; width: 20em; margin: 0 auto">
-								<div style="border-radius: 100%; height: 50%; width: 50%; margin: 0 auto; overflow: hidden">
+							<div style="height: 20em; width: 20em; max-width: 50vw; max-height: 50vw; margin: 0 auto">
+								<div style="border-radius: 100%; height: 50%; width: 50%; margin: 0 auto; overflow: hidden; background: rgba(255, 255, 255, 0.5)">
 									<a href="legal.html">
 										<i class="fa-solid fa-scale-balanced" style="display: flex;
 											width: 100%;
 											height: 100%;
-											font-size: 6rem;
+											font-size: clamp(2em, 6em, 15vw);
 											border-radius: 100%;
 											box-shadow: inset 0 0 0 1px #ffffff;
 											color: rgb(190, 60, 60);
@@ -87,7 +87,7 @@
 							</div>
 							<div style="width: 10em; margin: 0 auto;">
 								<header>
-									<h3 style="display: flex; margin: 0 auto; justify-content: center;"><a href="legal.html">Legal</a></h3>
+									<h3 style="display: flex; margin: 0 auto; justify-content: center; font-size: 3em; max-width: 20vw;"><a href="legal.html">Legal</a></h3>
 								</header>
 								<p>Caption for legal site</p>
 							</div>
@@ -95,13 +95,13 @@
 
 						<!-- Block Technical -->
 						<div style="display: flex; flex-direction: column; width: 50%">
-							<div style="height: 20em; width: 20em; margin: 0 auto;">
-								<div style="border: 1px solid rgba(255, 0, 0, 0); border-radius: 100%; height: 50%; width: 50%; margin: 0 auto; overflow: hidden">
+							<div style="height: 20em; width: 20em; max-width: 50vw; max-height: 50vw; margin: 0 auto;">
+								<div style="border-radius: 100%; height: 50%; width: 50%; margin: 0 auto; overflow: hidden; background: rgba(255, 255, 255, 0.5);">
 									<a href="technical.html">
 										<i class="fa-solid fa-laptop-code" style="display: flex;
 											width: 100%;
 											height: 100%;
-											font-size: 6rem;
+											font-size: clamp(2em, 6em, 15vw);
 											border-radius: 100%;
 											box-shadow: inset 0 0 0 1px #ffffff;
 											color: rgb(190, 60, 60);
@@ -125,38 +125,12 @@
 							</div>
 							<div style="width: 10em; margin: 0 auto">
 								<header>
-									<h3 style="display: flex; margin: 0 auto; justify-content: center;"><a href="technical.html">Technical</a></h3>
+									<h3 style="display: flex; margin: 0 auto; justify-content: center;  font-size: 3em; max-width: 20vw;"><a href="technical.html">Technical</a></h3>
 								</header>
 								<p>Caption for Technical site</p>
 							</div>
 						</div>
 						
-						<!--
-						<div class="container">
-							<div class="row">
-								<div class="col-4 col-12-narrow" style="width:50%">
-									<section>
-										<header>
-											<h3 style="font-size: 3em; margin-bottom: 10%"><a href="legal.html"><span class="fa-solid fa-gavel"></span> Legal</a></h3>
-										</header>
-										<p>Caption for Legal site</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-narrow" style="width:50%">
-									<section>
-										<span class="feature-icon">
-											<a href="technical.html" style="border-bottom:none;"><span class="icon solid fa-bolt"></span></a>
-										</span>
-										<header>
-											<h3><a href="technical.html">Technical</a></h3>
-										</header>
-										<p>Caption for Technical site</p>
-									</section>
-								</div>
-							</div>
-						</div>
-						-->
-
 					</div>
 				</div>
 			</section>
