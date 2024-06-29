@@ -2335,14 +2335,17 @@ input, select, textarea {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-image: linear-gradient(to top, rgba(225, 225, 225, 0), rgba(225, 225, 225, 0.2), rgba(225, 225, 225, 0.4), rgba(225, 225, 225, 1));
-		/*background-color: rgba(220, 220, 220, 0.7);*/
+		background-image: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(205, 205, 205, 0.8));
 		z-index: 1;
 	}
 
 	.footbackground > * {
 		position: relative;
 		z-index: 2;
+	}
+
+	.footbackground > .footertitle {
+		color: rgb(200, 200, 200);
 	}
 
 /* Footer */
@@ -2354,6 +2357,7 @@ input, select, textarea {
 		padding: 0 0 0 0;
 		box-shadow: inset 0 1px 0 0 #e6e6e6;
 		background-color: #f6f6f6;
+		height: auto
 	}
 
 		#footer .copyright {
@@ -2369,6 +2373,14 @@ input, select, textarea {
 
 		#footer ul.icons a {
 			box-shadow: inset 0 0 0 1px #d6d6d6;
+		}
+
+		#footer .content strong {
+			color: #666;
+		} 
+
+		#footer .subcontent {
+			color: #666;
 		}
 
 /* Wide */
