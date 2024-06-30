@@ -2390,6 +2390,10 @@ input, select, textarea {
 		height: 80vh;
 	}
 
+	.popupcontent h1 {
+		font-size: clamp(2vw, 4em, 30vw);
+	}
+
 	.modal.show {
 		display: flex;
 	}
