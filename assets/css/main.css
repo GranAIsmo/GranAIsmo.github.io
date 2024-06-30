@@ -2245,9 +2245,13 @@ input, select, textarea {
 		}
 
 			.main > header h2 {
-				font-size: 2.25em;
+				font-size: clamp(1.5vw, 5em, 6.5vw);
 				font-weight: 100;
 				margin-bottom: 0;
+			}
+
+			.main > header h3 {
+				font-size: clamp(0.7vw, 2.6em, 2.8vw);
 			}
 
 			.main > header p {
