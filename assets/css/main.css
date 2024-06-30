@@ -2379,7 +2379,7 @@ input, select, textarea {
 	.popupcontent {
 		position: relative;
 		background: white;
-		padding: 1em 2em;
+		padding: 4%;
 		border-radius: 1em;
 		border: 1px solid rgb(190, 60, 60);
 		width: 80vw;
