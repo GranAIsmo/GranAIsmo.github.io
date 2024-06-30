@@ -2364,10 +2364,6 @@ input, select, textarea {
 		z-index: 2;
 	}
 
-	.footbackground > .footertitle {
-		color: rgb(200, 200, 200);
-	}
-
 	/* Pop-up styling */
 
 	.modal {
@@ -2391,12 +2387,12 @@ input, select, textarea {
 	}
 
 	.popupcontent h1 {
-		font-size: clamp(2vw, 4em, 12vw);
+		font-size: clamp(1vw, 4em, 8vw);
 		margin: 3%
 	}
 
 	.popupcontent p {
-		font-size: clamp(1vw, 1.8em, 7vw);
+		font-size: clamp(0.5vw, 1.8em, 3vw);
 		margin: 3%;
 		line-height: 110%;
 	}
@@ -2433,22 +2429,26 @@ input, select, textarea {
 		}
 
 		#footer .content strong {
-			color: #666;
+			color: #4a4a4a;
+			font-size: clamp(1vw, 2.5em, 5vw);		
 		} 
 
 		#footer .subcontent {
 			color: #666;
+			font-size: clamp(0.5vw, 1em, 2.5vw);
+			align-items: center;
 		}
 
 			#footer .subcontent a {
 				color: rgb(255, 255, 255);
 				border: none;
-				height: clamp(0.5em, 1.5em, 5vw);
 			}
 			  
 			#footer .subcontent a:hover {
 				color: rgb(190, 60, 60);
 			}
+		
+
 			
 /* Wide */
 
@@ -2657,12 +2657,12 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 
-				.main1 a {
-					color: rgb(120, 60, 60);
-				}
-			
-				.main1 a:hover {
-					color: rgb(190, 60, 60);
-				}
+			.main1 a {
+				color: rgb(140, 60, 60);
+			}
+		
+			.main1 a:hover {
+				color: rgb(190, 60, 60);
+			}
 
 	}
