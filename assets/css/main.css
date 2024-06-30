@@ -2391,7 +2391,14 @@ input, select, textarea {
 	}
 
 	.popupcontent h1 {
-		font-size: clamp(2vw, 4em, 30vw);
+		font-size: clamp(2vw, 4em, 20vw);
+		margin: 3%
+	}
+
+	.popupcontent p {
+		font-size: clamp(1vw, 1.8em, 10vw);
+		margin: 3%;
+		line-height: 110%;
 	}
 
 	.modal.show {
