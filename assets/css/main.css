@@ -2255,9 +2255,10 @@ input, select, textarea {
 			}
 
 			.main > header p {
-				margin: 2em 0 0 0;
+				margin: 5% 0 0 0;
 				padding: 0;
 				text-align: justify;
+				font-size: clamp(0.3vw, 1.1em, 2vw)
 			}
 
 		.main > .content {
@@ -2396,7 +2397,7 @@ input, select, textarea {
 	}
 
 	.popupcontent p {
-		font-size: clamp(0.5vw, 1.8em, 3vw);
+		font-size: clamp(0.5vw, 1.6em, 3vw);
 		margin: 3%;
 		line-height: 110%;
 	}
