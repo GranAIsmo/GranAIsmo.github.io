@@ -2657,4 +2657,12 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 
+				.main1 a {
+					color: rgb(120, 60, 60);
+				}
+			
+				.main1 a:hover {
+					color: rgb(190, 60, 60);
+				}
+
 	}
