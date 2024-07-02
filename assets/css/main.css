@@ -2261,35 +2261,17 @@ input, select, textarea {
 				font-size: clamp(0.3vw, 1.1em, 2vw)
 			}
 
-		.main > .content {
-			padding: 6em 0 6em 0;
+		.main h2 {
+			margin: 0;
+			margin-bottom: 1%;
+			font-size: clamp(1vw, 2em, 6vw);
+			color: rgb(60, 60, 190)
 		}
-
-			.main > .content h3 {
-				font-size: 1.5em;
-			}
-
-			.main > .content.dark {
-				background: rgba(190, 60, 60, 0.4);
-			}
-
-			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
-			}
-
-			.main > .content.style2 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
-			}
-
-			.main > .content.style3 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
-			}
-
-			.main > .content.style4 {
-				padding-top: 0;
-				background: #fff;
-			}
-
+		
+		.main h3 {
+			font-size: clamp(0.6vw, 1.3em, 4vw);
+			color: rgb(60, 60, 130)
+		}
 	
 	.main1 {
 		position: relative;
@@ -2369,6 +2351,8 @@ input, select, textarea {
 		z-index: 2;
 	}
 
+
+
 	/* Pop-up styling */
 
 	.modal {
@@ -2406,6 +2390,7 @@ input, select, textarea {
 		display: flex;
 	}
 
+
 /* Footer */
 
 	#footer {
@@ -2438,21 +2423,35 @@ input, select, textarea {
 			font-size: clamp(1vw, 2.5em, 5vw);		
 		} 
 
-		#footer .subcontent {
+		#footer .subcontent1 {
 			color: #666;
 			font-size: clamp(0.5vw, 1em, 2.5vw);
 			align-items: center;
 		}
 
-			#footer .subcontent a {
+			#footer .subcontent1 a {
 				color: rgb(255, 255, 255);
 				border: none;
 			}
 			  
-			#footer .subcontent a:hover {
+			#footer .subcontent1 a:hover {
 				color: rgb(190, 60, 60);
 			}
 		
+		#footer .subcontent2 {
+			color: #666;
+			font-size: clamp(0.5vw, 1em, 2.5vw);
+			align-items: center;
+		}
+
+		#footer .subcontent2 a {
+			color: #666;
+			border: none;
+		}
+		  
+		#footer .subcontent2 a:hover {
+			color: rgb(190, 60, 60);
+		}
 
 			
 /* Wide */
